@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    text-transform: capitalize;
+    background-color: transparent;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.47);
+    background: -webkit-linear-gradient(
+        182deg,
+        rgba(0, 0, 0, 0.57) 0%,
+        rgba(102, 102, 102, 0.21) 100%
+    );
+    background: linear-gradient(
+        182deg,
+        rgba(0, 0, 0, 0.3) 0%,
+        rgba(102, 102, 102, 0.1) 100%
+    );
+}
+
+.nav a {
+    font-size: 1.8rem;
+    color: var(--color-light-1);
+}
