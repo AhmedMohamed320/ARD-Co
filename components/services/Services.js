@@ -5,9 +5,9 @@ import Link from "next/link";
 const Services = () => {
     return (
         <section className={classes.section}>
-            <Link href="">
+            <Link href="/service_1">
                 <p>
-                    العنوان{" "}
+                    تحليل التربة{" "}
                     <span>
                         <MdFlightTakeoff />
                     </span>
@@ -18,9 +18,9 @@ const Services = () => {
                     الغاية المرجوّة من الزيارة.
                 </p>
             </Link>
-            <Link href="">
+            <Link href="service_2">
                 <p>
-                    العنوان{" "}
+                     أستبدال المخلفات الزراعية {" "}
                     <span>
                         <MdFlightTakeoff />
                     </span>
@@ -31,9 +31,9 @@ const Services = () => {
                     الغاية المرجوّة من الزيارة.
                 </p>
             </Link>
-            <Link href="">
+            <Link href="service_3">
                 <p>
-                    العنوان{" "}
+                    عرض مخلفاتك الزراعية {" "}
                     <span>
                         <MdFlightTakeoff />
                     </span>
@@ -44,9 +44,9 @@ const Services = () => {
                     الغاية المرجوّة من الزيارة.
                 </p>
             </Link>
-            <Link href="">
+            <Link href="service_4">
                 <p>
-                    العنوان{" "}
+                    عرض مطلوبات التصنيع الأخضر  {" "}
                     <span>
                         <MdFlightTakeoff />
                     </span>
