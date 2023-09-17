@@ -1,0 +1,50 @@
+.section {
+    height: 10vh;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.section.onScroll {
+    background-color: var(--white-1);
+    box-shadow: var(--box-shadow-1);
+}
+
+.section > div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 7rem;
+}
+
+.list {
+    font-weight: 600;
+}
+
+.list ul li {
+    color: var(--black-1);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    padding: 0.5rem 0;
+    transition: 0.2s;
+}
+
+.list ul li:hover {
+    border-bottom: 2px solid var(--green-2);
+}
+
+.section > div:nth-of-type(1) button {
+    background-color: var(--black-1);
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    color: var(--white-1);
+    box-shadow: var(--box-shadow-1);
+}
