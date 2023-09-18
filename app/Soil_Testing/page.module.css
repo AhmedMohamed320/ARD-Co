@@ -20,7 +20,7 @@
     gap: 3rem;
 }
 
-.part1 {
+.part1,.data {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
@@ -36,12 +36,6 @@
     font-size: 1.5rem;
     font-weight: 600;
     padding-bottom: 1rem;
-}
-
-.data {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
 }
 
 .part1 > div,
@@ -67,4 +61,10 @@
     background-color: var(--green-1);
     border-radius: 0.5rem;
     color: var(--white-1);
+}
+
+@media (max-width:40rem) {
+    .part1,.data {
+        grid-template-columns: repeat(2,1fr);
+    }
 }
