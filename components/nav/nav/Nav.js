@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import classes from "./Nav.module.css";
 import { BsListNested, BsPhoneFlip } from "react-icons/bs";
+import Link from "next/link";
 
 const Nav = (props) => {
     const [isFixed, setIsFixed] = useState(false);
@@ -29,9 +30,9 @@ const Nav = (props) => {
                         onClick={props.onShowAside}
                     />
                 </div>
-                <div className={classes.logo}>
+                <Link href="/" className={classes.logo}>
                     <img src="/image/test-logo.png" alt="" />
-                </div>
+                </Link>
                 <div className={`hidden md:block ${classes.list}`}>
                     <ul className="flex items-center gap-10 text-2xl md">
                         <li>

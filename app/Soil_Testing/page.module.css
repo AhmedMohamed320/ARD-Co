@@ -1,0 +1,70 @@
+.section {
+    height: 100%;
+    margin-top: 10vh;
+}
+
+.title {
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.section > div {
+    max-width: 100rem;
+    margin: auto;
+    background-color: var(--green-3);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow-1);
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.part1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.part2>div{
+    background-color: var(--green-4);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.part2>div>p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+
+.data {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.part1 > div,
+.data > div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.part1 > div input,
+.part2 > div input {
+    box-shadow: var(--box-shadow-1);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+}
+
+.section > div button {
+    padding: 1rem;
+    font-size: 1.6rem;
+    background-color: var(--green-1);
+    border-radius: 0.5rem;
+    color: var(--white-1);
+}

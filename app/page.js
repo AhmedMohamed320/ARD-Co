@@ -2,6 +2,7 @@ import classes from "./Home.module.css";
 import { MdNorthWest } from "react-icons/md";
 import { BsArrowUpLeft } from "react-icons/bs";
 import { Fragment } from "react";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -71,7 +72,7 @@ export default function Home() {
                     <div className={classes.part2}>
                         <p>خدماتنا</p>
                         <div className={classes.service}>
-                            <div>
+                            <Link href="/Soil_Testing">
                                 <div className={classes.img}>
                                     <img src="/image/s1 (4).png" alt="" />
                                 </div>
@@ -85,8 +86,8 @@ export default function Home() {
                                 <div className={classes.arrow}>
                                     <MdNorthWest />
                                 </div>
-                            </div>
-                            <div>
+                            </Link>
+                            <Link href="">
                                 <div className={classes.img}>
                                     <img src="/image/s1 (1).png" alt="" />
                                 </div>
@@ -101,36 +102,37 @@ export default function Home() {
                                 <div className={classes.arrow}>
                                     <MdNorthWest />
                                 </div>
-                            </div>
-                            <div>
+                            </Link>
+                            <Link href="">
                                 <div className={classes.img}>
                                     <img src="/image/s1 (3).png" alt="" />
                                 </div>
                                 <div>
                                     <p>عرض مخلفاتك الزراعية</p>
                                     <p>
-                                    هذا البرنامج يهدف إلى تشجيع المزارعين على عرض مخلفاتهم الزراعية.
+                                        هذا البرنامج يهدف إلى تشجيع المزارعين
+                                        على عرض مخلفاتهم الزراعية.
                                     </p>
                                 </div>
                                 <div className={classes.arrow}>
                                     <MdNorthWest />
                                 </div>
-                            </div>
-                            <div>
+                            </Link>
+                            <Link href="">
                                 <div className={classes.img}>
                                     <img src="/image/s1 (2).png" alt="" />
                                 </div>
                                 <div>
                                     <p>التصنيع الاخضر</p>
                                     <p>
-                                    عرض مطلوبات التصنيع الأخضر  الخاصة بمصنعك للموردين (مثل المخلفات الزراعية وماشابه) 
-
+                                        عرض مطلوبات التصنيع الأخضر الخاصة بمصنعك
+                                        للموردين (مثل المخلفات الزراعية وماشابه)
                                     </p>
                                 </div>
                                 <div className={classes.arrow}>
                                     <MdNorthWest />
                                 </div>
-                            </div>
+                            </Link>
                         </div>
                     </div>
                 </section>

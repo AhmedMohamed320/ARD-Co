@@ -56,7 +56,7 @@
     width: 15rem !important;
     height: 15rem !important;
     top: 50%;
-    right: -50%;
+    right: -45%;
 }
 
 @keyframes animation-1 {
@@ -180,7 +180,7 @@
     gap: 1.5rem;
 }
 
-.service > div {
+.service > a {
     border-radius: 1rem;
     padding: 0.5rem;
     font-size: 1.6rem;
@@ -190,37 +190,37 @@
     height: 13rem;
 }
 
-.service > div > .img {
+.service > a > .img {
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     bottom: 0;
     left: 0;
-    padding: 0.5rem;
-    height: 7rem;
+    padding: 0.5rem 1.5rem 1rem ;
+    height: 8rem;
     z-index: 1000;
 }
 
-.service > div > div:nth-of-type(2) {
+.service > a > div:nth-of-type(2) {
     padding: 1rem;
 }
 
-.service > div > div:nth-of-type(2) p {
+.service > a > div:nth-of-type(2) p {
     width: 80%;
     font-weight: 600;
     padding-bottom: 1rem;
 }
 
-.service > div > div:nth-of-type(2) p:nth-of-type(2) {
+.service > a > div:nth-of-type(2) p:nth-of-type(2) {
     font-size: 1.5rem;
     font-weight: 500;
 }
-.service > div > .img img {
+.service > a > .img img {
     height: 100%;
 }
 
-.service > div .arrow {
+.service > a .arrow {
     position: absolute;
     top: -1rem;
     left: -1rem;
@@ -235,8 +235,8 @@
     border: 1rem solid var(--white-1);
 }
 
-.service > div .arrow::before,
-.service > div .arrow::after {
+.service > a .arrow::before,
+.service > a .arrow::after {
     content: "";
     position: absolute;
     width: 2rem;
@@ -244,14 +244,14 @@
     background-color: var(--green-3);
 }
 
-.service > div .arrow::before {
+.service > a .arrow::before {
     top: 0;
     right: -3rem;
     border-top-left-radius: 5rem;
     box-shadow: -0.7rem -0.8rem 0 0.4rem var(--white-1);
 }
 
-.service > div .arrow::after {
+.service > a .arrow::after {
     bottom: -3rem;
     left: 0;
     border-top-left-radius: 5rem;
