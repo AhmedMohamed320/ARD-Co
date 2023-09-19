@@ -4,7 +4,7 @@ import classes from "./page.module.css";
 const page = () => {
     return (
         <section className={`mainContainer ${classes.section}`}>
-            <p className=" text-5xl py-8">عرض مخلفاتك الزراعيه</p>
+            <p className=" text-5xl py-8 px-4">عرض مخلفاتك الزراعيه</p>
             <div className={classes.form}>
                 <div>
                     <div>
