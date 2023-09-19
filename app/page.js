@@ -103,7 +103,7 @@ export default function Home() {
                                     <MdNorthWest />
                                 </div>
                             </Link>
-                            <Link href="">
+                            <Link href="/Display_your_agricultural_waste">
                                 <div className={classes.img}>
                                     <img src="/image/s1 (3).png" alt="" />
                                 </div>
