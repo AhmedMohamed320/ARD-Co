@@ -4,8 +4,9 @@
 }
 
 .title {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 2rem 0;
+    font-weight: 600;
 }
 
 .section > div {
@@ -26,6 +27,12 @@
     gap: 2rem;
 }
 
+.part2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .part2>div{
     background-color: var(--green-4);
     padding: 1rem;
@@ -33,7 +40,7 @@
 }
 
 .part2>div>p{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 600;
     padding-bottom: 1rem;
 }
@@ -43,7 +50,7 @@
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .part1 > div input,
