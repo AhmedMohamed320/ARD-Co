@@ -87,7 +87,7 @@ export default function Home() {
                                     <MdNorthWest />
                                 </div>
                             </Link>
-                            <Link href="">
+                            <Link href="/test2">
                                 <div className={classes.img}>
                                     <img src="/image/s1 (1).png" alt="" />
                                 </div>
@@ -118,7 +118,7 @@ export default function Home() {
                                     <MdNorthWest />
                                 </div>
                             </Link>
-                            <Link href="">
+                            <Link href="/test">
                                 <div className={classes.img}>
                                     <img src="/image/s1 (2).png" alt="" />
                                 </div>
